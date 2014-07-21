@@ -16,3 +16,7 @@
 [21-Jul-2014 15:43:27 Europe/Berlin] PHP Notice:  Undefined index: existing-url in /Applications/MAMP/htdocs/gmlandsolutions/admin/changedata.php on line 201
 [21-Jul-2014 15:44:21 Europe/Berlin] PHP Notice:  Undefined index: existing-url in /Applications/MAMP/htdocs/gmlandsolutions/admin/changedata.php on line 198
 [21-Jul-2014 15:44:21 Europe/Berlin] PHP Notice:  Undefined index: existing-url in /Applications/MAMP/htdocs/gmlandsolutions/admin/changedata.php on line 201
+[21-Jul-2014 17:33:55 Europe/Berlin] PHP Fatal error:  Call to undefined function get_nested_navigation() in /Applications/MAMP/htdocs/gmlandsolutions/theme/GmLandSolutions/header.inc.php on line 58
+[21-Jul-2014 17:34:19 Europe/Berlin] PHP Fatal error:  Call to undefined function get_nested_navigation() in /Applications/MAMP/htdocs/gmlandsolutions/theme/GmLandSolutions/header.inc.php on line 59
+[21-Jul-2014 17:34:28 Europe/Berlin] PHP Fatal error:  Call to undefined function get_nested_navigation() in /Applications/MAMP/htdocs/gmlandsolutions/theme/GmLandSolutions/header.inc.php on line 58
+[21-Jul-2014 17:34:41 Europe/Berlin] PHP Fatal error:  Call to undefined function get_nested_navigation() in /Applications/MAMP/htdocs/gmlandsolutions/theme/GmLandSolutions/header.inc.php on line 58
