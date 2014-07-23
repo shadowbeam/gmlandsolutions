@@ -12,15 +12,20 @@ include('header.inc.php');
 ?>
 
 
-	<article>
-		<section class="container">
+<article>
+	<section class="container">
+		<div id="section-header" class="full-width">
+			<img src="<?php get_theme_url(); ?>/assets/img/default-header.png"/>
+			<h1 class="title"><?php get_page_title(); ?></h1>
 
-			<!-- title and content -->
-			<h1><?php get_page_title(); ?></h1>
+		</div>
+
+		<div id="section-content" >
 			<?php get_page_content(); ?>
-		</section>
+		</div>
+	</section>
 
-	</article>
+</article>
 
 
 

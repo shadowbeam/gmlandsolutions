@@ -22,6 +22,7 @@
 	<link href="<?php get_theme_url(); ?>/assets/css/reset.css" rel="stylesheet">
 	<link href="<?php get_theme_url(); ?>/assets/css/bootstrap.css" rel="stylesheet">
 	<link href="<?php get_theme_url(); ?>/assets/css/font.css" rel="stylesheet">
+	<link href="<?php get_theme_url(); ?>/assets/css/asap.css" rel="stylesheet">
 	<link href="<?php get_theme_url(); ?>/assets/css/style.css" rel="stylesheet">
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
