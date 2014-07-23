@@ -20,9 +20,9 @@
 	<meta name="robots" content="index, follow">
 
 	<link href="<?php get_theme_url(); ?>/assets/css/reset.css" rel="stylesheet">
-	<link href="<?php get_theme_url(); ?>/assets/css/bootstrap.min.css" rel="stylesheet">
-	<link href="<?php get_theme_url(); ?>/assets/css/bootstrap-theme.css" rel="stylesheet">
+	<link href="<?php get_theme_url(); ?>/assets/css/bootstrap.css" rel="stylesheet">
 	<link href="<?php get_theme_url(); ?>/assets/css/font.css" rel="stylesheet">
+	<link href="<?php get_theme_url(); ?>/assets/css/style.css" rel="stylesheet">
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -39,31 +39,29 @@
 
   	<!-- site header -->
   	<header>
-  		<div class="header">
+  		<div id="tier-first" class="dark-soil">
+  			<div class="container">
 
-  			<!-- logo/sitename -->
-  			<a class="pull-left" href="<?php get_site_url(); ?>" id="logo" ><img src="<?php get_theme_url(); ?>/assets/img/logo.png"/></a>
+  				<div class="contact-info pull-right">
+  					<span class='phone'>01896 833161 <i class='icon-phone'></i></span>
+  					<span class='phone'>07950 023813<i class='icon-mobile'></i></span>
+  					<span class='phone'><a href="mailto:enquiries@tglg.co.uk">enquiries@tglg.co.uk</a><i class='icon-mail'></i></span>
+  				</div>
 
-  			<div id="contact-info" class="pull-right">
-  				<span class='phone'>01896 833161 <i class='icon-phone'></i></span>
-  				<span class='phone'>07950 023813<i class='icon-mobile'></i></span>
-  				<span class='phone'>enquiries@tglg.co.uk<i class='icon-mail'></i></span>
+  				<a class="" href="<?php get_site_url(); ?>" id="logo" ><img src="<?php get_theme_url(); ?>/assets/img/logo.png"/></a>
+
+  				
   			</div>
-
   		</div>
-  		<div class="soil-strip"></div>
+  		<div class="soil-strip light-soil"></div>
   		<!-- main navigation -->
-  		<nav id="main-nav">
-  			<ul>
-  				<?php get_nested_navigation(); ?>
-  			</ul>
+  		<nav id="main-nav" class="light-soil">
+  			<div class="container">
+  				<ul>
+  					<?php get_nested_navigation(); ?>
+  				</ul>
+  			</div>
   		</nav>
 
-  		<!-- breadcrumbs: only show when NOT on homepage -->
-  		<p class="breadcrumbs" >
-  			<span class="wrapper">
-  				<a href="<?php get_site_url(); ?>">Home</a> &nbsp;&nbsp;&#149;&nbsp;&nbsp; <?php Innovation_Parent_Link(get_parent(FALSE)); ?> <b><?php get_page_clean_title(); ?></b>
-  			</span>
-  		</p>
 
   	</header>
