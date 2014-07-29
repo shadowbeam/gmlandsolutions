@@ -33,6 +33,7 @@
       <![endif]-->
       <?php get_header(); ?>
 
+
   </head>
 
 
@@ -47,7 +48,7 @@
 
 
   				<div class="contact-info pull-right">
-  					<span class='phone'>01896 833161 <i class='icon icon-phone'></i></span>
+  					<span class='phone'>01896 833161<i class='icon icon-phone'></i></span>
   					<span class='mobile'>07950 023813<i class='icon icon-mobile'></i></span>
   					<span class='email'><a href="mailto:enquiries@tglg.co.uk">enquiries@tglg.co.uk</a><i class='icon icon-mail'></i></span>
   				</div>

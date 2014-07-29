@@ -55,13 +55,13 @@
  	padding: 15px;
  }
 
- header #tier-first .contact-info span{
+ .contact-info span{
  	display: block;
  	text-align: right;
  }
 
- header #tier-first .contact-info .icon{
- 	padding-left: 5px;
+ .contact-info .icon{
+ 	padding: 0 5px;
  }
 
  header .soil-strip{
@@ -125,6 +125,17 @@
  	border-top: 10px solid #598226;
  	padding: 15px 0;
  	color: #fff;
+ 	min-height: 150px;
+ }
+
+
+ footer .contact-info .icon{
+ 	color: #000;
+ 	font-size: 17px;
+ }
+ footer .contact-info span{
+ 	text-align: left;
+ 	font-size: 15px;
  }
 
  @media (max-width: 600px) { 
@@ -146,6 +157,18 @@
 
  	.full-width {
  		margin: 0 -15px;
+ 	}
+
+ 	footer{
+ 		text-align: left!important;
+ 	}
+
+ 	footer .credits{
+ 		margin-top: 25px;
+ 	}
+
+ 	footer .pull-left, footer .pull-right{
+ 		float: none!important;
  	}
  }
 
