@@ -8,56 +8,56 @@
     yui.yahooapis.com/2.8.1/build/base/base.css
     camendesign.com/design/
     praegnanz.de/weblog/htmlcssjs-kickstart
-*/
+    */
 
 /*
   html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
   v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
   html5doctor.com/html-5-reset-stylesheet/
-*/
+  */
 
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-  margin:0;
-  padding:0;
-  border:0;
-  font-size:100%;
-  font: inherit;
-  vertical-align:baseline;
-}
+  html, body, div, span, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+  small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, figcaption, figure,
+  footer, header, hgroup, menu, nav, section, summary,
+  time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    font: inherit;
+    vertical-align:baseline;
+  }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+  article, aside, details, figcaption, figure,
+  footer, header, hgroup, menu, nav, section {
     display:block;
-}
+  }
 
-blockquote, q { quotes:none; }
+  blockquote, q { quotes:none; }
 
-blockquote:before, blockquote:after,
-q:before, q:after { content:''; content:none; }
+  blockquote:before, blockquote:after,
+  q:before, q:after { content:''; content:none; }
 
-ins { background-color:#ff9; color:#000; text-decoration:none; }
+  ins { background-color:#ff9; color:#000; text-decoration:none; }
 
-mark { background-color:#ff9; color:#000; font-style:italic; font-weight:bold; }
+  mark { background-color:#ff9; color:#000; font-style:italic; font-weight:bold; }
 
-del { text-decoration: line-through; }
+  del { text-decoration: line-through; }
 
-abbr[title], dfn[title] { border-bottom:1px dotted; cursor:help; }
+  abbr[title], dfn[title] { border-bottom:1px dotted; cursor:help; }
 
-table { border-collapse:collapse; border-spacing:0; }
+  table { border-collapse:collapse; border-spacing:0; }
 
-hr { display:block; height:1px; border:0; border-top:1px solid #ccc; margin:1em 0; padding:0; }
+  hr { display:block; height:1px; border:0; border-top:1px solid #ccc; margin:1em 0; padding:0; }
 
-input, select { vertical-align:middle; }
+  input, select { vertical-align:middle; }
 
-/* END RESET CSS */
+  /* END RESET CSS */
 
 
 /* fonts.css from the YUI Library: developer.yahoo.com/yui/
@@ -67,15 +67,15 @@ input, select { vertical-align:middle; }
    * remove arial, helvetica from explicit font stack
    * we normalize monospace styles ourselves
    * table font-size is reset in the HTML5 reset above so there is no need to repeat
-*/
-body { font:13px/1.231 sans-serif; *font-size:small; } /* hack retained to preserve specificity */
+   */
+   body { font:13px/1.231 sans-serif; *font-size:small; } /* hack retained to preserve specificity */
 
-select, input, textarea, button { font:99% sans-serif; }
+   select, input, textarea, button { font:99% sans-serif; }
 
 /* normalize monospace sizing
  * en.wikipedia.org/wiki/MediaWiki_talk:Common.css/Archive_11#Teletype_style_fix_for_Chrome
  */
-pre, code, kbd, samp { font-family: monospace, sans-serif; }
+ pre, code, kbd, samp { font-family: monospace, sans-serif; }
 
 
 /*
@@ -83,7 +83,7 @@ pre, code, kbd, samp { font-family: monospace, sans-serif; }
  */
 
 
-body, select, input, textarea {
+ body, select, input, textarea {
   /* #444 looks better than black: twitter.com/H_FJ/statuses/11800719859 */
   color: #444;
   /* set your base font here, to apply evenly */
@@ -91,7 +91,7 @@ body, select, input, textarea {
 }
 
 /* headers (h1,h2,etc) have no default font-size or margin,
-   you'll want to define those yourself. */
+you'll want to define those yourself. */
 h1,h2,h3,h4,h5,h6 { font-weight: bold; }
 
 /* always force a scrollbar in non-IE: */
@@ -101,8 +101,6 @@ html { overflow-y: scroll; }
 /* accessible focus treatment: people.opera.com/patrickl/experiments/keyboard/test */
 a:hover, a:active { outline: none; }
 
-a, a:active, a:visited { color: #B0D393; text-decoration: none;}
-a:hover { color: #A8794F;; text-decoration: underline;}
 
 
 ul, ol { margin-left: 2em; }
@@ -146,10 +144,10 @@ button, input, select, textarea { margin: 0; }
 /* colors for form validity */
 input:valid, textarea:valid   {  }
 input:invalid, textarea:invalid {
-      border-radius: 1px;
-    -moz-box-shadow: 0px 0px 5px red;
- -webkit-box-shadow: 0px 0px 5px red;
-         box-shadow: 0px 0px 5px red;
+  border-radius: 1px;
+  -moz-box-shadow: 0px 0px 5px red;
+  -webkit-box-shadow: 0px 0px 5px red;
+  box-shadow: 0px 0px 5px red;
 }
 .no-boxshadow input:invalid,
 .no-boxshadow textarea:invalid { background-color: #f0dddd; }
@@ -158,24 +156,24 @@ input:invalid, textarea:invalid {
 /* These selection declarations have to be separate.
    No text-shadow: twitter.com/miketaylr/status/12228805301
    Also: hot pink. */
-::-moz-selection{ background: #333; color:#fff; text-shadow: none; }
-::selection { background:#333; color:#fff; text-shadow: none; }
+   ::-moz-selection{ background: #333; color:#fff; text-shadow: none; }
+   ::selection { background:#333; color:#fff; text-shadow: none; }
 
-/*  j.mp/webkit-tap-highlight-color */
-a:link { -webkit-tap-highlight-color: #FF5E99; }
+   /*  j.mp/webkit-tap-highlight-color */
+   a:link { -webkit-tap-highlight-color: #FF5E99; }
 
 /* make buttons play nice in IE:
-   www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
+www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
 button {  width: auto; overflow: visible; }
 
 /* bicubic resizing for non-native sized IMG:
-   code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/ */
+code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/ */
 .ie7 img { -ms-interpolation-mode: bicubic; }
 
 
  /* Primary Styles
     Author:
- */
+    */
 
 
 
@@ -196,24 +194,24 @@ button {  width: auto; overflow: visible; }
   * Non-semantic helper classes: please define your styles before this section.
   */
 
- /* for image replacement */
- .ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
+  /* for image replacement */
+  .ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
 
  /* Hide for both screenreaders and browsers
-    css-discuss.incutio.com/wiki/Screenreader_Visibility */
+ css-discuss.incutio.com/wiki/Screenreader_Visibility */
  .hidden { display: none; visibility: hidden; }
 
  /* Hide only visually, but have it available for screenreaders: by Jon Neal
-   www.webaim.org/techniques/css/invisiblecontent/  &  j.mp/visuallyhidden */
+ www.webaim.org/techniques/css/invisiblecontent/  &  j.mp/visuallyhidden */
  .visuallyhidden {
-     border: 0;
-     clip: rect(0 0 0 0);
-     height: 1px;
-     margin: -1px;
-     overflow: hidden;
-     padding: 0;
-     position: absolute;
-     width: 1px;
+   border: 0;
+   clip: rect(0 0 0 0);
+   height: 1px;
+   margin: -1px;
+   overflow: hidden;
+   padding: 0;
+   position: absolute;
+   width: 1px;
  }
 
  /* Hide visually and from screenreaders, but maintain layout */

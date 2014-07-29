@@ -6,15 +6,14 @@
  	background-color: #74A94E;
  	font-family: 'asapregular';
  }
- article{
- 	overflow: hidden;
- }
+
+ a, a:active, a:visited { color: #74AB50; text-decoration: none;}
+ a:hover { color: #A8794F;; text-decoration: underline;}
+
+
  section{
  	background-color: #E4F0DC;
- }
-
- .container{
- 	padding: 0 35px!important;
+ 	overflow: hidden;
  }
 
  #section-content{
@@ -43,7 +42,8 @@
 
 
  header #logo img{
- 	width: 300px;
+ 	max-width: 300px;
+ 	width: 100%;
  }
 
  header{
@@ -58,6 +58,10 @@
  header #tier-first .contact-info span{
  	display: block;
  	text-align: right;
+ }
+
+ header #tier-first .contact-info .icon{
+ 	padding-left: 5px;
  }
 
  header .soil-strip{
@@ -99,6 +103,11 @@
 
  }
 
+ #section-header img{
+ 	width: 100%;
+ 	min-width: 650px;
+ }
+
  .dark-soil{
  	background-color: #302C23;
  }
@@ -115,4 +124,33 @@
  	background-color: #365222;
  	border-top: 10px solid #598226;
  	padding: 15px 0;
+ 	color: #fff;
+ }
+
+ @media (max-width: 600px) { 
+ 	#tier-first .contact-info{
+ 		width: 100%;
+ 		display: block;
+ 		margin: 5px 0;
+ 		display: none;
+ 	}
+
+ 	header #tier-first .contact-info span{
+ 		display: inline-block;
+ 		padding-right: 15px
+ 	}
+
+ 	.full-width h1 {
+ 		padding: 0 15px;
+ 	}
+
+ 	.full-width {
+ 		margin: 0 -15px;
+ 	}
+ }
+
+ @media (min-width: 600px) { 
+ 	.container{
+ 		padding: 0 35px!important; 
+ 	}
  }
