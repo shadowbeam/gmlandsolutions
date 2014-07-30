@@ -10,14 +10,18 @@
  a, a:active, a:visited { color: #74AB50; text-decoration: none;}
  a:hover { color: #A8794F;; text-decoration: underline;}
 
-
  section{
  	background-color: #E4F0DC;
  	overflow: hidden;
  }
 
+ strong, b{
+ 	letter-spacing: -0.5px;
+
+ }
+
  #section-content{
- 	padding: 35px 0;
+ 	padding: 15px 0
  }
 
  .full-width{
@@ -34,10 +38,16 @@
  	background-repeat: no-repeat;
  	margin-top: -51px;
  	position: absolute;
- 	width: 100%;
+ 	width: 900px;
  	height: 75px;
  	background-position-y: 20px;
  	font-weight: normal;
+
+ }
+
+ h2{
+ 	font-size: 24px;
+ 	border-bottom: 3px solid #74A94E;
  }
 
 
@@ -120,6 +130,39 @@
  	max-width: 970px;
  }
 
+
+ .services{
+ 	margin-top: 15px;
+ }
+
+ .services img {
+ 	max-width: 100%;
+ 	border: 3px solid #A8794F;
+ 	border-radius: 5px;
+ 	height: 150px;
+ 	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-bottom: 10px;
+ 	max-height: 150px;
+ }
+
+ .services > div{
+ 	text-align: center;
+ 	margin-bottom: 15px;
+ }
+
+ .services a {
+ 	color: #444;
+ 	font-weight: bold;
+ 	letter-spacing: -1px;
+ }
+
+ .services span::After {
+ 	content: "\00bb";
+ }
+
+
  footer{
  	background-color: #365222;
  	border-top: 10px solid #598226;
@@ -129,6 +172,12 @@
  }
 
 
+ footer .contact-info{
+
+ 	margin-bottom: 25px!important;
+
+
+ }
  footer .contact-info .icon{
  	color: #000;
  	font-size: 17px;
@@ -138,7 +187,7 @@
  	font-size: 15px;
  }
 
- @media (max-width: 600px) { 
+ @media (max-width: 768px) { 
  	#tier-first .contact-info{
  		width: 100%;
  		display: block;
@@ -151,6 +200,11 @@
  		padding-right: 15px
  	}
 
+ 	h1.title{ 
+ 		width: 100%;
+
+ 	}
+
  	.full-width h1 {
  		padding: 0 15px;
  	}
@@ -161,19 +215,48 @@
 
  	footer{
  		text-align: left!important;
- 	}
-
- 	footer .credits{
- 		margin-top: 25px;
+ 		height: auto!important;
  	}
 
  	footer .pull-left, footer .pull-right{
  		float: none!important;
  	}
+ 	.services img {
+ 		height: auto!important;
+ 	}
+
+
  }
 
- @media (min-width: 600px) { 
+ @media (min-width: 768px) { 
  	.container{
  		padding: 0 35px!important; 
  	}
+
+
  }
+
+
+
+ html, body {
+ 	height: 100%;
+ }
+
+ .wrapper, section, article{
+ 	min-height: 100%;
+ 	height: auto !important;
+ 	height: 100%;
+ 	margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+ }
+
+
+ section::after {
+ 	height: 155px;
+ 	display: block;
+
+ }
+
+ footer{
+ 	height: 155px; /* .push must be the same height as .footer */
+ }
+

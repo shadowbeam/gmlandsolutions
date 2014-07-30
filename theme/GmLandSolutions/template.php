@@ -22,13 +22,14 @@ include('header.inc.php');
 
 		<div id="section-content" >
 			<?php get_page_content(); ?>
+			<div class="clearfix"></div>
 		</div>
 	</section>
 
 </article>
 
 
-
+</div>
 
 
 <!-- include the footer template -->

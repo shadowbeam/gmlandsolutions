@@ -38,34 +38,34 @@
 
 
   <body id="<?php get_page_slug(); ?>" >
+  	<div class="wrapper">
+  		<!-- site header -->
+  		<header>
+  			<div id="tier-first" class="dark-soil">
+  				<div class="container">
 
-  	<!-- site header -->
-  	<header>
-  		<div id="tier-first" class="dark-soil">
-  			<div class="container">
-
-  				<a class="pull-left" href="<?php get_site_url(); ?>" id="logo" ><img src="<?php get_theme_url(); ?>/assets/img/logo.png"/></a>
+  					<a class="pull-left" href="<?php get_site_url(); ?>" id="logo" ><img src="<?php get_theme_url(); ?>/assets/img/logo.png"/></a>
 
 
-  				<div class="contact-info pull-right">
-  					<span class='phone'>01896 833161<i class='icon icon-phone'></i></span>
-  					<span class='mobile'>07950 023813<i class='icon icon-mobile'></i></span>
-  					<span class='email'><a href="mailto:enquiries@tglg.co.uk">enquiries@tglg.co.uk</a><i class='icon icon-mail'></i></span>
+  					<div class="contact-info pull-right">
+  						<span class='phone'>01896 833161<i class='icon icon-phone'></i></span>
+  						<span class='mobile'>07950 023813<i class='icon icon-mobile'></i></span>
+  						<span class='email'><a href="mailto:enquiries@tglg.co.uk">enquiries@tglg.co.uk</a><i class='icon icon-mail'></i></span>
+  					</div>
+
+
+  					
   				</div>
-
-
-  				
   			</div>
-  		</div>
-  		<div class="soil-strip light-soil"></div>
-  		<!-- main navigation -->
-  		<nav id="main-nav" class="light-soil">
-  			<div class="container">
-  				<ul>
-  					<?php get_nested_navigation(); ?>
-  				</ul>
-  			</div>
-  		</nav>
+  			<div class="soil-strip light-soil"></div>
+  			<!-- main navigation -->
+  			<nav id="main-nav" class="light-soil">
+  				<div class="container">
+  					<ul>
+  						<?php get_nested_navigation(); ?>
+  					</ul>
+  				</div>
+  			</nav>
 
 
-  	</header>
+  		</header>

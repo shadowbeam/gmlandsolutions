@@ -20,3 +20,19 @@
 [21-Jul-2014 17:34:19 Europe/Berlin] PHP Fatal error:  Call to undefined function get_nested_navigation() in /Applications/MAMP/htdocs/gmlandsolutions/theme/GmLandSolutions/header.inc.php on line 59
 [21-Jul-2014 17:34:28 Europe/Berlin] PHP Fatal error:  Call to undefined function get_nested_navigation() in /Applications/MAMP/htdocs/gmlandsolutions/theme/GmLandSolutions/header.inc.php on line 58
 [21-Jul-2014 17:34:41 Europe/Berlin] PHP Fatal error:  Call to undefined function get_nested_navigation() in /Applications/MAMP/htdocs/gmlandsolutions/theme/GmLandSolutions/header.inc.php on line 58
+[29-Jul-2014 16:59:07 Europe/Berlin] PHP Notice:  Undefined index: existing-url in /Applications/MAMP/htdocs/gmlandsolutions/admin/changedata.php on line 198
+[29-Jul-2014 16:59:07 Europe/Berlin] PHP Notice:  Undefined index: existing-url in /Applications/MAMP/htdocs/gmlandsolutions/admin/changedata.php on line 201
+[29-Jul-2014 16:59:29 Europe/Berlin] PHP Notice:  Undefined index: existing-url in /Applications/MAMP/htdocs/gmlandsolutions/admin/changedata.php on line 198
+[29-Jul-2014 16:59:29 Europe/Berlin] PHP Notice:  Undefined index: existing-url in /Applications/MAMP/htdocs/gmlandsolutions/admin/changedata.php on line 201
+[29-Jul-2014 17:12:58 Europe/Berlin] PHP Notice:  Undefined index: existing-url in /Applications/MAMP/htdocs/gmlandsolutions/admin/changedata.php on line 198
+[29-Jul-2014 17:12:58 Europe/Berlin] PHP Notice:  Undefined index: existing-url in /Applications/MAMP/htdocs/gmlandsolutions/admin/changedata.php on line 201
+[29-Jul-2014 17:13:16 Europe/Berlin] PHP Notice:  Undefined index: existing-url in /Applications/MAMP/htdocs/gmlandsolutions/admin/changedata.php on line 198
+[29-Jul-2014 17:13:16 Europe/Berlin] PHP Notice:  Undefined index: existing-url in /Applications/MAMP/htdocs/gmlandsolutions/admin/changedata.php on line 201
+[29-Jul-2014 17:13:40 Europe/Berlin] PHP Notice:  Undefined index: existing-url in /Applications/MAMP/htdocs/gmlandsolutions/admin/changedata.php on line 198
+[29-Jul-2014 17:13:40 Europe/Berlin] PHP Notice:  Undefined index: existing-url in /Applications/MAMP/htdocs/gmlandsolutions/admin/changedata.php on line 201
+[29-Jul-2014 17:14:53 Europe/Berlin] PHP Notice:  Undefined index: existing-url in /Applications/MAMP/htdocs/gmlandsolutions/admin/changedata.php on line 198
+[29-Jul-2014 17:14:53 Europe/Berlin] PHP Notice:  Undefined index: existing-url in /Applications/MAMP/htdocs/gmlandsolutions/admin/changedata.php on line 201
+[29-Jul-2014 17:16:05 Europe/Berlin] PHP Notice:  Undefined index: existing-url in /Applications/MAMP/htdocs/gmlandsolutions/admin/changedata.php on line 198
+[29-Jul-2014 17:16:05 Europe/Berlin] PHP Notice:  Undefined index: existing-url in /Applications/MAMP/htdocs/gmlandsolutions/admin/changedata.php on line 201
+[29-Jul-2014 17:16:26 Europe/Berlin] PHP Notice:  Undefined index: existing-url in /Applications/MAMP/htdocs/gmlandsolutions/admin/changedata.php on line 198
+[29-Jul-2014 17:16:26 Europe/Berlin] PHP Notice:  Undefined index: existing-url in /Applications/MAMP/htdocs/gmlandsolutions/admin/changedata.php on line 201

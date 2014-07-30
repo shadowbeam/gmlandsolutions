@@ -1,26 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<item><pubDate>Tue, 22 Jul 2014 17:54:49 +0200</pubDate><title><![CDATA[Landscape Gardening]]></title><url><![CDATA[index]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Home]]></menu><menuOrder><![CDATA[1]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;p&gt;Thank you for using GetSimple CMS. This is your homepage, so please change this text to be what you want.&lt;/p&gt;
-&lt;ul&gt;
-	&lt;li&gt;&lt;a href=&quot;http://get-simple.info/docs/&quot;&gt;GetSimple CMS Documentation&lt;/a&gt;
-		&lt;ul&gt;
-			&lt;li&gt;&lt;a href=&quot;http://get-simple.info/docs/theme-creation&quot;&gt;How to Create a GetSimple Theme&lt;/a&gt;&lt;/li&gt;
-		&lt;/ul&gt;
-	&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;http://get-simple.info/forums/&quot;&gt;GetSimple Support Forums&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Header 2&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum &lt;em&gt;dolor sit amet&lt;/em&gt;, &lt;strong&gt;consectetur adipiscing elit&lt;/strong&gt;. Donec &lt;code&gt;this is code&lt;/code&gt; venenatis augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer vulputate pretium augue.&lt;/p&gt;
-&lt;h3&gt;Header 3&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;#header h1 a { 
-	display: block; 
-	width: 300px; 
-	height: 80px; 
-}&lt;/code&gt;&lt;/pre&gt;
-&lt;h4&gt;Header 4&lt;/h4&gt;
-&lt;ol&gt;
-	&lt;li&gt;Lorem ipsum dolor sit amet&lt;/li&gt;
-	&lt;li&gt;Consectetur adipiscing elit&lt;/li&gt;
-	&lt;li&gt;Donec ut est risus, placerat venenatis augue&lt;/li&gt;
-&lt;/ol&gt;
-&lt;blockquote&gt;A blockquote. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut est risus, placerat venenatis augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.&lt;/blockquote&gt;
-]]></content><private><![CDATA[]]></private><author><![CDATA[gmlandsolutions]]></author></item>
+<item><pubDate>Wed, 30 Jul 2014 17:16:16 +0200</pubDate><title><![CDATA[Landscape Gardening]]></title><url><![CDATA[index]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Home]]></menu><menuOrder><![CDATA[1]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;p&gt;&lt;strong&gt;GM Land Solutions&lt;/strong&gt;&amp;nbsp;based in Peebles, in the Scottish Borders, offers tree surgery and related services within a 50 mile radius including Innerleithen, Walkerburn, West Linton and Pencuik.&lt;/p&gt;
+&lt;p&gt;Whether you&#039;re looking for a &lt;a href=&quot;decking.html&quot;&gt;decking&lt;/a&gt; or &lt;a href=&quot;paving.html&quot;&gt;paving service&lt;/a&gt;, (re)&lt;a href=&quot;turfing.html&quot;&gt;turfing your garden&lt;/a&gt; or a simple &lt;a href=&quot;garden-tidy.html&quot;&gt;site clearance&lt;/a&gt; and &lt;a href=&quot;garden-tidy.html&quot;&gt;tidy up of your garden&lt;/a&gt;&amp;nbsp;I&#039;m confident that GM Land Solutions will be able to help you out.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;For any questions or queries, or if you would like us to &lt;strong&gt;visit you for a free estimate&lt;/strong&gt;, please do not hesitate to &lt;a href=&quot;contact-us.html&quot;&gt;contact us&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Services&lt;/h2&gt;
+&lt;div class=&quot;services&quot;&gt;
+&lt;div class=&quot;col-xs-6 col-sm-4 col-md-3&quot;&gt;&lt;a href=&quot;paving&quot;&gt;&lt;img alt=&quot;Paving&quot; src=&quot;data/uploads/services/paving.jpg&quot; title=&quot;Paving&quot; /&gt; &lt;span&gt;Paving&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;col-xs-6 col-sm-4 col-md-3&quot;&gt;&lt;a href=&quot;decking&quot;&gt;&lt;img alt=&quot;Decking&quot; src=&quot;data/uploads/services/decking.jpg&quot; title=&quot;Decking&quot; /&gt; &lt;span&gt;Decking&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;col-xs-6 col-sm-4 col-md-3&quot;&gt;&lt;a href=&quot;fencing&quot;&gt;&lt;img alt=&quot;Fencing&quot; src=&quot;data/uploads/services/fencing.jpg&quot; title=&quot;Fencing&quot; /&gt; &lt;span&gt;Fencing&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;col-xs-6 col-sm-4 col-md-3&quot;&gt;&lt;a href=&quot;turfing&quot;&gt;&lt;img alt=&quot;Turfing&quot; src=&quot;data/uploads/services/turfing.jpg&quot; title=&quot;Turfing&quot; /&gt; &lt;span&gt;Turfing&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;col-xs-6 col-sm-4 col-md-3&quot;&gt;&lt;a href=&quot;http://www.gmtreeservices.co.uk&quot;&gt;&lt;img alt=&quot;Tree and Hedge Work&quot; src=&quot;data/uploads/services/tree-and-hedge-work.jpg&quot; title=&quot;Tree and Hedge Work&quot; /&gt; &lt;span&gt;Tree and Hedge Work&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;col-xs-6 col-sm-4 col-md-3&quot;&gt;&lt;a href=&quot;garden-site-clearances&quot;&gt;&lt;img alt=&quot;Garden/Site Clearances&quot; src=&quot;data/uploads/services/garden-site-clearances.jpg&quot; title=&quot;Garden/Site Clearances&quot; /&gt; &lt;span&gt;Garden/Site Clearances&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;col-xs-6 col-sm-4 col-md-3&quot;&gt;&lt;a href=&quot;low-maintenance-gardens&quot;&gt;&lt;img alt=&quot;Low Maintenance Gardens&quot; src=&quot;data/uploads/services/low-maintenance-gardens.jpg&quot; title=&quot;Low Maintenance Gardens&quot; /&gt; &lt;span&gt;Low Maintenance Gardens&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;col-xs-6 col-sm-4 col-md-3&quot;&gt;&lt;a href=&quot;groundwork&quot;&gt;&lt;img alt=&quot;Groundwork&quot; src=&quot;data/uploads/services/groundwork.jpg&quot; title=&quot;Groundwork&quot; /&gt; &lt;span&gt;Groundwork&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;]]></content><private><![CDATA[]]></private><author><![CDATA[gmlandsolutions]]></author></item>

@@ -17,7 +17,7 @@
   */
 
   html, body, div, span, object, iframe,
-  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  h1, h2, h3, h4, h5, h6, blockquote, pre,
   abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
   small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
   fieldset, form, label, legend,
@@ -83,12 +83,7 @@
  */
 
 
- body, select, input, textarea {
-  /* #444 looks better than black: twitter.com/H_FJ/statuses/11800719859 */
-  color: #444;
-  /* set your base font here, to apply evenly */
-  /* font-family: Georgia, serif;  */
-}
+
 
 /* headers (h1,h2,etc) have no default font-size or margin,
 you'll want to define those yourself. */
@@ -156,8 +151,8 @@ input:invalid, textarea:invalid {
 /* These selection declarations have to be separate.
    No text-shadow: twitter.com/miketaylr/status/12228805301
    Also: hot pink. */
-   ::-moz-selection{ background: #333; color:#fff; text-shadow: none; }
-   ::selection { background:#333; color:#fff; text-shadow: none; }
+   ::-moz-selection{ background: #74AB50; color:#fff; text-shadow: none; }
+   ::selection { background:#74AB50; color:#fff; text-shadow: none; }
 
    /*  j.mp/webkit-tap-highlight-color */
    a:link { -webkit-tap-highlight-color: #FF5E99; }
