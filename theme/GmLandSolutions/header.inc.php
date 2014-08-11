@@ -37,7 +37,7 @@
   </head>
 
 
-  <body id="<?php get_page_slug(); ?>" >
+  <body id="<?php get_page_slug(); ?>" class="<?php get_parent(); ?>" >
   	<div class="wrapper">
   		<!-- site header -->
   		<header>
@@ -65,6 +65,8 @@
   						<?php get_nested_navigation(); ?>
   					</ul>
   				</div>
+
+  				<?php go_child_menu(); ?>
   			</nav>
 
 

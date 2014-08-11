@@ -92,6 +92,7 @@ function get_nested_navigation($echo = true)
 	$active_page=return_page_slug();
 	$cachepath = GSDATAOTHERPATH.'nested_menu_cache/'.$active_page.'.cache';
 	
+	
 	if (is_file($cachepath)) //We have a cached file, use it.
 	{
 		echo file_get_contents($cachepath);
