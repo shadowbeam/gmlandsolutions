@@ -35,6 +35,12 @@
 
 	<!-- Go to www.addthis.com/dashboard to customize your tools -->
 	<script src="http://s7.addthis.com/js/300/addthis_widget.js" type="text/javascript"></script> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- 	<script>$('button').click(function() {$(this).toggleClass('pressed');});</script>
+ -->	
+	<script src="<?php get_theme_url(); ?>/assets/js/bootstrap.min.js"></script>
+
 
 </body>
 </html>
