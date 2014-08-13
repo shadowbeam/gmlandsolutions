@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Tue, 12 Aug 2014 16:58:28 +0200</pubDate><title><![CDATA[Contact]]></title><url><![CDATA[contact]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Contact]]></menu><menuOrder><![CDATA[6]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template-contact.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;p&gt;If you have any queries about the services we offer or would like to arrange a quote please do not hesitate to contact us&lt;/p&gt;
+&lt;div class=&quot;form-horizontal&quot;&gt;
+	&lt;div class=&quot;form-group&quot;&gt;
+		&lt;div class=&quot;col-sm-3 &quot;&gt;&lt;strong&gt;Proprietor&lt;/strong&gt;&lt;/div&gt;
+		&lt;div class=&quot;col-sm-9&quot;&gt;Gavin Mathison&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;form-group&quot;&gt;
+		&lt;div class=&quot;col-sm-3 &quot;&gt;&lt;strong&gt;Office Address&lt;/strong&gt;&lt;/div&gt;
+		&lt;div class=&quot;col-sm-9&quot;&gt;GM Land Solutions, 39 Eastgate, Peebles, EH45 8AD&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;form-group&quot;&gt;
+		&lt;div class=&quot;col-sm-3 &quot;&gt;&lt;strong&gt;Telephone&lt;/strong&gt;&lt;/div&gt;
+		&lt;div class=&quot;col-sm-9&quot;&gt;01896 833161&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;form-group&quot;&gt;
+		&lt;div class=&quot;col-sm-3 &quot;&gt;&lt;strong&gt;Mobile&lt;/strong&gt;&lt;/div&gt;
+		&lt;div class=&quot;col-sm-9&quot;&gt;07950 023813&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;form-group&quot;&gt;
+		&lt;div class=&quot;col-sm-3 &quot;&gt;&lt;strong&gt;Email&lt;/strong&gt;&lt;/div&gt;
+		&lt;div class=&quot;col-sm-9&quot;&gt;&lt;a href=&quot;mailto:enquiries@tglg.co.uk&quot;&gt;enquiries@tglg.co.uk&lt;/a&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+]]></content><private><![CDATA[]]></private><author><![CDATA[gmlandsolutions]]></author></item>

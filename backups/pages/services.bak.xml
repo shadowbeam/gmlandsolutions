@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Tue, 05 Aug 2014 17:17:56 +0200</pubDate><title><![CDATA[Services]]></title><url><![CDATA[services]]></url><meta><![CDATA[]]></meta><metad><![CDATA[redirect=index/#services
+]]></metad><menu><![CDATA[Services]]></menu><menuOrder><![CDATA[4]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;p&gt;GM Land Solutions offers the following services.&lt;/p&gt;
+&lt;div class=&quot;services&quot;&gt;
+	&lt;div class=&quot;col-xs-6 col-sm-4 col-md-3&quot;&gt;&lt;a href=&quot;paving&quot;&gt;&lt;img alt=&quot;Paving&quot; src=&quot;data/uploads/services/paving.jpg&quot; title=&quot;Paving&quot; /&gt; &lt;span&gt;Paving&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+	&lt;div class=&quot;col-xs-6 col-sm-4 col-md-3&quot;&gt;&lt;a href=&quot;decking&quot;&gt;&lt;img alt=&quot;Decking&quot; src=&quot;data/uploads/services/decking.jpg&quot; title=&quot;Decking&quot; /&gt; &lt;span&gt;Decking&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+	&lt;div class=&quot;col-xs-6 col-sm-4 col-md-3&quot;&gt;&lt;a href=&quot;fencing&quot;&gt;&lt;img alt=&quot;Fencing&quot; src=&quot;data/uploads/services/fencing.jpg&quot; title=&quot;Fencing&quot; /&gt; &lt;span&gt;Fencing&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+	&lt;div class=&quot;col-xs-6 col-sm-4 col-md-3&quot;&gt;&lt;a href=&quot;turfing&quot;&gt;&lt;img alt=&quot;Turfing&quot; src=&quot;data/uploads/services/turfing.jpg&quot; title=&quot;Turfing&quot; /&gt; &lt;span&gt;Turfing&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+	&lt;div class=&quot;col-xs-6 col-sm-4 col-md-3&quot;&gt;&lt;a href=&quot;http://www.gmtreeservices.co.uk&quot;&gt;&lt;img alt=&quot;Tree and Hedge Work&quot; src=&quot;data/uploads/services/tree-and-hedge-work.jpg&quot; title=&quot;Tree and Hedge Work&quot; /&gt; &lt;span&gt;Tree and Hedge Work&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+	&lt;div class=&quot;col-xs-6 col-sm-4 col-md-3&quot;&gt;&lt;a href=&quot;garden-site-clearances&quot;&gt;&lt;img alt=&quot;Garden/Site Clearances&quot; src=&quot;data/uploads/services/garden-site-clearances.jpg&quot; title=&quot;Garden/Site Clearances&quot; /&gt; &lt;span&gt;Garden/Site Clearances&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+	&lt;div class=&quot;col-xs-6 col-sm-4 col-md-3&quot;&gt;&lt;a href=&quot;low-maintenance-gardens&quot;&gt;&lt;img alt=&quot;Low Maintenance Gardens&quot; src=&quot;data/uploads/services/low-maintenance-gardens.jpg&quot; title=&quot;Low Maintenance Gardens&quot; /&gt; &lt;span&gt;Low Maintenance Gardens&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+	&lt;div class=&quot;col-xs-6 col-sm-4 col-md-3&quot;&gt;&lt;a href=&quot;groundwork&quot;&gt;&lt;img alt=&quot;Groundwork&quot; src=&quot;data/uploads/services/groundwork.jpg&quot; title=&quot;Groundwork&quot; /&gt; &lt;span&gt;Groundwork&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+]]></content><private><![CDATA[]]></private><author><![CDATA[gmlandsolutions]]></author></item>
